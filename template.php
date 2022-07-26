@@ -1,0 +1,1 @@
+<input type="hidden" value="<?php echo get_the_ID();?>" id="post_id" />

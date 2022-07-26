@@ -1,0 +1,20 @@
+body.et_monarch .et_social_pin_images {
+ 
+    max-height: 92%;
+}.et_social_pin_image {
+    display: none !important;
+}
+.et_social_pin_image.pinterest_inner {
+    display: block !important;
+}
+@media screen and (min-width:480px){
+body.et_monarch .et_social_pin_image {
+    width: 33.33%;
+    margin-right: 0;
+    padding: 10px 7px;
+}
+}
+body.et_monarch .et_social_pin_images::-webkit-scrollbar {
+  display: none;
+}
+body.et_monarch .et_social_pin_images{scrollbar-width: none; -ms-scrollbar-width: none;-webkit-scrollbar-width: none;}
